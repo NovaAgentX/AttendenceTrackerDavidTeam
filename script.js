@@ -123,7 +123,7 @@ const AppState = {
   currentYear: 2026,
   currentMonth: 8, // 1 - 12 (August 2026 by default)
   activeTab: 'matrix',
-  apiUrl: localStorage.getItem(STORAGE_KEYS.API_URL) || 'https://script.google.com/macros/s/AKfycbyNn4Qc0yQZ5m2Ir9Ko6_z6WwE2RHQfvMAdcfdj6AzHrsiOMMPhGaPleleSIB_EwhE/exec',
+  apiUrl: localStorage.getItem(STORAGE_KEYS.API_URL) || 'https://script.google.com/macros/s/AKfycbzmbHMJZ94bBIeh1kZ-wpI9J_QZiD5slBuc-kYFMd70c4YUTRVoUz7Qh3LSPk554Sao1g/exec',
   isConnected: false,
   isLoading: false,
   
